@@ -10,15 +10,19 @@ public class FibonacciSeries
 		System.out.println("Enter the no:");
 		int n = input.nextInt();
 		input.close();
+		int num = 2;
 		int a = -1;
 		int b = 1;
 		int c;
-		for(int i = 0;i<n;i++)
+		for(int i=0;i<n;i++)
 		{
 			c = a+b;
 			a = b;
 			b = c;
 			System.out.print(c);
+			if(c == num) { 
+				System.out.println("\n"+ c + " found at index " + i);
+			}
 		}
 	}
 }

@@ -8,7 +8,6 @@ public class IfElseEx
 		int a = 3;
 		if(a>=0) 
 		{
-		
 			if(a==0)
 				System.out.println("First String");
 		}

@@ -2,21 +2,20 @@ package com.oopsSample;
 
 import java.util.ArrayList;
 
-public class StudentList 
-{
+public class StudentList {
 	ArrayList<Student> studList;
-	public StudentList()
-	{
+
+	public StudentList() {
 		System.out.println("Creating Students list...");
 		studList = new ArrayList<>();
 	}
-	public void addStudents(Student student)
-	{
+
+	public void addStudents(Student student) {
 		System.out.println("Add student to the list...");
 		studList.add(student);
 	}
-	public ArrayList getStudents()
-	{
+
+	public ArrayList getStudents() {
 		return studList;
 	}
 }

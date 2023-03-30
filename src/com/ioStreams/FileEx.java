@@ -3,45 +3,33 @@ package com.ioStreams;
 import java.io.File;
 import java.io.FileWriter;
 
-
-
-public class FileEx
-{
-	public static void main(String[] args) 
-	{
-		File dir = new File("F:\\Worksp");
+public class FileEx {
+	public static void main(String[] args) {
+		File dir = new File("F:\\Workspace1");
 		boolean value = false;
 		String data = "This is a sample file...";
-	
-		try
-		{
+
+		try {
 			boolean isDir = dir.mkdir();
-			dir.getAbsolutePath();
+			String path = dir.getAbsolutePath();
 			boolean isExist = dir.exists();
-			
-			if(isDir)
-			{
-				File file = new File(dir.getAbsolutePath()+"\\file1.txt");
+
+			if (isDir) {
+				File file = new File(path + "\\file2.txt");
 				value = file.createNewFile();
 			}
-			if(isExist)
-				System.out.println(dir.getAbsolutePath());
-			if(value)
-			{
+			if (isExist)
+				System.out.println(path);
+			if (value) {
 				System.out.println("File was created...");
-			}
-			else
+			} else
 				System.out.println("No File was created...");
-			FileWriter file1 = new FileWriter("F:\\WorkSp\\"+"file1.txt");
+			FileWriter file1 = new FileWriter(path + "\\file2.txt");
+			file1.write(data);
+			file1.flush();
+			file1.close();
 
-
-				file1.write(data);
-				file1.flush();
-				file1.close();
-
-		}
-		catch(Exception e)
-		{
+		} catch (Exception e) {
 			e.getStackTrace();
 		}
 	}

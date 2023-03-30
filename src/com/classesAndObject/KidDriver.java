@@ -9,12 +9,12 @@ public class KidDriver
 		Kid Kidone = new Kid("Pinky",8);
 		Kidone.play();
 		System.out.println("Kidone name is :"+Kidone.name);
-		System.out.println("Kidtwo age is :"+Kidone.age);
+		System.out.println("Kidone age is :"+Kidone.age);
 		
 		Kid KidTwo = new Kid("Wicky", 9);
 		KidTwo.play();
 		System.out.println("Kidtwo name is :"+KidTwo.name);
-		System.out.println("Kidtwo age is :"+Kidone.age);
+		System.out.println("Kidtwo age is :"+KidTwo.age);
 		
 		EncapsulatedKid kid = new EncapsulatedKid();
 		kid.setAge(4);

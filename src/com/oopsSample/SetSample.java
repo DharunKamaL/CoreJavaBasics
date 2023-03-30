@@ -14,6 +14,7 @@ public class SetSample
 		evenNumber.add(8);
 		evenNumber.add(6);
 		evenNumber.add(8);
+		
 		System.out.println("HashSet:"+evenNumber);
 		
 		Iterator<Integer> iterate = evenNumber.iterator();

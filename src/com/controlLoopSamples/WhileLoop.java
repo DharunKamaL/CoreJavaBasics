@@ -10,7 +10,7 @@ public class WhileLoop
 		System.out.println("Enter the number:");
 		int n = input.nextInt();
 		int sum =0;
-		while(n>=0)
+		while(n>0)
 		{
 			sum +=n;
 			System.out.println("Enter the number:");

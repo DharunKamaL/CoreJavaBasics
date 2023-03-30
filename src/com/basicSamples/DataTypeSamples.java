@@ -14,9 +14,9 @@ public class DataTypeSamples
 		String str1 = "Java Programming";
 		String str2 = "Programiz";
 		
-		byte range = 124;
-		short temp = -200;
-		int irange = -4250000;
+		byte range = 124; //127
+		short temp = -200; //approx 32000
+		int irange = -4250000; //approx 2000000000
 		long lrange = -423322233;
 		
 		System.out.println("a value:"+a);
@@ -30,8 +30,6 @@ public class DataTypeSamples
 		System.out.println("short value:"+temp);
 		System.out.println("int value:"+irange);
 		System.out.println("long value:"+lrange);
-		
-
 	}
 
 }

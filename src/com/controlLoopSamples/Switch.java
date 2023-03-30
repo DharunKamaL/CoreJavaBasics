@@ -4,7 +4,7 @@ public class Switch
 {
 	public static void main(String[] args) 
 	{
-		int month = 12;
+		int month = 2;
 		int year = 2000;
 		int numDays = 0;
 		

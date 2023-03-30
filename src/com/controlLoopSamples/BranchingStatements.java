@@ -22,8 +22,7 @@ public class BranchingStatements
 			System.out.println("Found "+searchFor+" at index "+i);
 		}
 		else
-			System.out.println("Not Found");
-				
+			System.out.println("Not Found");	
 	}
 }
 

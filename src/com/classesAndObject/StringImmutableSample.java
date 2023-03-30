@@ -7,7 +7,6 @@ public class StringImmutableSample
 	{
 		String strOne = "Java";
 		System.out.println("Address:"+strOne.hashCode());
-		strOne.concat(" Programming");
 		System.out.println("Before assigning:"+strOne);
 		System.out.println("Address:"+strOne.hashCode());
 		strOne = strOne.concat(" Programming");

@@ -17,7 +17,7 @@ public class DoWhileLoop
 			System.out.println("enter the no:");
 			n = input.nextInt();
 		}
-		while(n>=0);
+		while(n>0);
 		System.out.println("Sum:"+sum);
 		input.close();
 	}

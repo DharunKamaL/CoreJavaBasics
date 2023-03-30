@@ -26,5 +26,4 @@ public class PropertyFileSample
 		password = tempProp.getProperty("password");
 		System.out.println("username:"+uname+"\n"+"password:"+password);
 	}
-
 }

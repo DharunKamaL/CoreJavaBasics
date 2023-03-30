@@ -5,9 +5,10 @@ public class StringSample
 
 	public static void main(String[] args) 
 	{
+		
 		String first = "Java programming";
 		String second = "Python programming";
-		String third = "C # programming";
+		String third = "C# programming";
 		
 
 		String first1 = "java";
@@ -15,7 +16,7 @@ public class StringSample
 		
 		
 		String[] word = first.split(" ");
-		System.out.println(word[1]);
+		System.out.println(word[0]);
 		
 		boolean result1 = first.equals(second);
 		System.out.println("String first and String second are equal:"+result1);

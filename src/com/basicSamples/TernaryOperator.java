@@ -10,6 +10,4 @@ public class TernaryOperator
 		result = (februaryDays == 28) ? "Not a leap year":"Leap year";
 		System.out.println(result);
 	}
-	
-
 }

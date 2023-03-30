@@ -7,7 +7,6 @@ public class ArraysSample
 	{
 		int[] age = new int[5];
 //		int[] age = {1, 2, 3, 4, 5};//We can also declare array like this...
-		
 		age[0] = 1;
 		age[1] = 2;
 	    age[2] = 3;
@@ -28,18 +27,21 @@ public class ArraysSample
 		}
 		
 		System.out.println("Accessing with enhanced for loop");
+		int sum = 0;
+		float avg = 0f;
 		for(int a:age)
 		{
-			System.out.println(a);
+//			System.out.println(a);
+			sum+=a;
 		}
 
 	
-		int sum = 0;
-		float avg = 0f;
-		for(int i=0;i<age.length;i++)
-		{
-			sum+=age[i];
-		}
+//		int sum = 0;
+//		float avg = 0f;
+//		for(int i=0;i<age.length;i++)
+//		{
+//			sum+=age[i];
+//		}
 		System.out.println("Sum of an array:"+sum);
 		avg = (sum/age.length);
 		System.out.println("Average of an array:"+avg);
